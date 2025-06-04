@@ -1,0 +1,87 @@
+/*Fondeo degradado del body*/
+body {
+  background: linear-gradient(120deg, #d4e6f1, #a0c8e2, #6ec1e4, #68b1d9, #4a9db8, #7bbfe0);
+}
+
+/* Animación para el movimiento de izquierda a derecha */
+@keyframes movingLine {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-movingLine {
+  animation: movingLine 3s linear infinite;
+}
+
+/*Foto de perfil*/
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fondo animado con forma cambiante y degradado */
+.wave-background {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(120deg, rgba(173, 216, 230, 0.5), rgba(135, 206, 235, 0.5), rgba(100, 149, 237, 0.5), rgba(70, 130, 180, 0.5), rgba(60, 79, 99, 0.5));
+  animation: randomShape 12s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  border: 3px solid black;
+}
+
+/* Imagen interna sin filtro ni mezcla */
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mask-image: radial-gradient(circle, black 98%, transparent 100%);
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
+
+/* Animación de forma aleatoria */
+@keyframes randomShape {
+  0% {
+    border-radius: 50% 50% 50% 50%;
+  }
+  25% {
+    border-radius: 30% 70% 50% 50%;
+  }
+  50% {
+    border-radius: 70% 30% 50% 50%;
+  }
+  75% {
+    border-radius: 50% 50% 30% 70%;
+  }
+  100% {
+    border-radius: 50% 50% 50% 50%;
+  }
+}
+
+/* Media queries responsivas */
+@media (max-width: 780px) {
+  .profile-container {
+    display: none !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .wave-background {
+    width: 200px;
+    height: 200px;
+  }
+}
