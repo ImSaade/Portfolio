@@ -1,6 +1,7 @@
 /*Fondeo degradado del body*/
 body {
-  background: linear-gradient(120deg, #d4e6f1, #a0c8e2, #6ec1e4, #68b1d9, #4a9db8, #7bbfe0);
+  background: linear-gradient(120deg, #f8fafc, #f1f4f7, #e7ebf0, #f1f4f7, #f8fafc);
+
 }
 
 /* Animación para el movimiento de izquierda a derecha */

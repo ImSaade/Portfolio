@@ -17,7 +17,7 @@ function Header() {
     <header className="shadow-lg fixed w-full top-0 z-10 backdrop-blur-sm border-b border-black/10" style={{ backgroundColor: "#27374D" }}>
       <div className="max-w-screen-xl mx-auto px-6 py-5 flex justify-between items-center">
         <div className="header__logo">
-          <h1 className="font-mono text-xl text-white tracking-tight mb-1">Eduardo Saavedra</h1>
+          <h1 className="font-bold text-2xl text-white tracking-tight mb-1">Eduardo Saavedra</h1>
         </div>
         <nav className="header__nav" aria-label="Navegación principal">
           <MenuToggleButton toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />

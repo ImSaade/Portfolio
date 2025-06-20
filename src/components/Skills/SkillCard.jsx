@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillCard = ({ skill }) => {
   return (
-    <article className="skill-card bg-[#DDE6ED] p-8 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg text-center relative overflow-hidden border border-gray-200 group">
+    <article className="skill-card bg-[#f9f9f9] p-8 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 hover:shadow-lg text-center relative overflow-hidden border border-gray-200 group">
       <figure className="skill-icon mb-4">
         <img src={skill.imgSrc} alt={`Ícono de ${skill.name}`} className="w-16 h-16 object-contain mx-auto filter drop-shadow-lg transition-transform duration-300 hover:scale-110" />
       </figure>

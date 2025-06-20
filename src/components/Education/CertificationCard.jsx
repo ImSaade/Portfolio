@@ -3,7 +3,7 @@ import React from "react";
 
 const CertificationCard = ({ cert }) => {
   return (
-    <article className="bg-[#DDE6ED] p-8 rounded-lg shadow-md border border-black/5 relative overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-lg group">
+    <article className="bg-[#f9f9f9] p-8 rounded-lg shadow-md border border-black/5 relative overflow-hidden transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-lg group">
       <header>
         <h3 className="text-xl font-semibold text-center text-gray-800 transition-colors duration-300 group-hover:text-grey-600">{cert.title}</h3>
       </header>

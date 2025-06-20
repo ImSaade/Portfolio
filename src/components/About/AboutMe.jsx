@@ -13,7 +13,7 @@ function SobreMi() {
     >
       <div className="contenedor flex items-center justify-between">
         <div className="text-container max-w-lg">
-          <h2 className="font-mono text-4xl mb-6 relative inline-block text-gray-710">
+          <h2 className="text-4xl font-bold text-gray-800 leading-tight mb-6">
             Sobre Mí
             <span className="absolute bottom-[-8px] left-0 w-3/5 h-[3px] bg-primary rounded-sm"></span>
           </h2>

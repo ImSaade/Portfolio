@@ -50,7 +50,7 @@ const Education = () => {
   return (
     <section id="educacion" className="px-4 py-16 max-w-7xl mx-auto">
       <header className="mb-12">
-        <h2 className="font-mono text-4xl mb-2 tracking-wide text-gray-750">Educación</h2>
+        <h2 className="text-4xl font-bold text-gray-800 leading-tight mb-6">Educación</h2>
         <p className="text-lg text-gray-710 mt-2">Descubre mis logros académicos y la formación continua que respalda mi formación profesional.</p>
       </header>
 

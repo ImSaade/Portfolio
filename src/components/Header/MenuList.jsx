@@ -6,27 +6,27 @@ function MenuList({ isMenuOpen, closeMenu }) {
       }`}
     >
       <li className="header__item">
-        <a href="#sobre-mi" onClick={closeMenu} className="header__link hover:underline text-white md:text-white">
+        <a href="#sobre-mi" onClick={closeMenu} className="header__link hover:underline text-white md:text-white text-lg">
           Sobre Mí
         </a>
       </li>
       <li className="header__item">
-        <a href="#habilidades" onClick={closeMenu} className="header__link hover:underline text-white md:text-white">
+        <a href="#habilidades" onClick={closeMenu} className="header__link hover:underline text-white md:text-white text-lg">
           Habilidades
         </a>
       </li>
       <li className="header__item">
-        <a href="#proyectos" onClick={closeMenu} className="header__link hover:underline text-white md:text-white">
+        <a href="#proyectos" onClick={closeMenu} className="header__link hover:underline text-white md:text-white text-lg">
           Proyectos
         </a>
       </li>
       <li className="header__item">
-        <a href="#educacion" onClick={closeMenu} className="header__link hover:underline text-white md:text-white">
+        <a href="#educacion" onClick={closeMenu} className="header__link hover:underline text-white md:text-white text-lg">
           Educación
         </a>
       </li>
       <li className="header__item">
-        <a href="#contacto" onClick={closeMenu} className="header__link hover:underline text-white md:text-white">
+        <a href="#contacto" onClick={closeMenu} className="header__link hover:underline text-white md:text-white text-lg">
           Contacto
         </a>
       </li>

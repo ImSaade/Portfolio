@@ -49,7 +49,7 @@ const Skills = () => {
   return (
     <section id="habilidades" className="skills-section py-16 px-6 max-w-screen-xl mx-auto">
       <header className="section-header">
-        <h2 className="font-mono text-4xl mb-2 tracking-wide text-gray-750">Habilidades</h2>
+        <h2 className="text-4xl font-bold text-gray-800 leading-tight mb-6">Habilidades</h2>
         <p className="text-lg text-gray-720 mt-2">Descubre mis competencias técnicas y las herramientas que manejo.</p>
       </header>
       <div className="skills-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
