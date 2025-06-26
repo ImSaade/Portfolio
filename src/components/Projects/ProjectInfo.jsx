@@ -1,4 +1,4 @@
-import BuildImg from "../../assets/img/build.png";
+import BuildImg from "../../assets/img/blackboard.png";
 
 const projects = [
   {
