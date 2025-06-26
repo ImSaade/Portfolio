@@ -4,12 +4,12 @@ const projects = [
   {
     id: 1,
     navId: "1",
-    title: "Proyecto 1",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "AuthApp",
+    description: "Sistema de autenticación con Node.js y Express, utilizando JWT para login, rutas protegidas y gestión de roles (usuario/admin). Frontend simple para registro y perfil.",
     imgSrc: BuildImg,
     codeLink: "https://github.com/usuario/proyecto1",
     demoLink: "https://demo.proyecto1.com",
-    technologies: ["Tecnología1", "Tecnología2", "Tecnología3"],
+    technologies: ["NodeJS", "JWT", "PostgreSQL"],
   },
   {
     id: 2,
